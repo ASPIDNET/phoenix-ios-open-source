@@ -1,0 +1,8 @@
+{
+  "archive": "phoenix-ios-engine-covered-source-go1.27.3.tar.gz",
+  "sha256": "5429b07bfa860d3a57485aa61df126023c99ee81fc48e1a5702ff43215716116",
+  "bytes": 1122650,
+  "published": false,
+  "legal_approval": false,
+  "scope": "Full prepared Xray sources, pinned REALITY and ratelimit sources, iOS patches and builder; review package, not proof of public source availability."
+}

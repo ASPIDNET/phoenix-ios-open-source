@@ -1,0 +1,47 @@
+module	version	replaced_or_patched	ios_packages	declared_license	license_file	license_sha256	note
+github.com/andybalholm/brotli	v1.0.6	no	1	MIT	LICENSE	3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94	
+github.com/apernet/quic-go	v0.59.1-0.20260425001925-6c6cc9bcb716	no	21	MIT	LICENSE	77d0b7b53e8abb84cf4dd3f9945a7fdf27044240d2e8023966a721a9a46fe96e	
+github.com/cloudflare/circl	v1.6.4	no	7	BSD-3-Clause	LICENSE	b0da1764fe4d13d610b695536fc3f2ebc362482d053a1cd258e36975bc6b97a7	
+github.com/ghodss/yaml	v1.0.1-0.20220118164431-d8423dcdf344	no	1	BSD-3-Clause	LICENSE	24653fd8a39354396da1a265d68316399edc39b1df48c5866d55f9f06484fa9a	
+github.com/go-gost/go-shadowsocks2	v0.1.4	yes	5	Apache-2.0	LICENSE	cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30	
+github.com/google/btree	v1.1.3	no	1	Apache-2.0	LICENSE	cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30	
+github.com/google/uuid	v1.6.0	no	1	BSD-3-Clause	LICENSE	0a8d61ed3cbfd5312326e8126c31ce9c627a283adc99131b56896d29ada04b2d	
+github.com/gorilla/websocket	v1.5.3	no	1	BSD-2-Clause	LICENSE	2be1b548b0387ca8948e1bb9434e709126904d15f622cc2d0d8e7f186e4d122d	
+github.com/juju/ratelimit	v1.0.2	no	1	LGPL-3.0	LICENSE	a92f49abd3f15a3523b022a9b74fb885b53c228f8244c817add3a835427b10d9	LGPL linking exception: release-owner legal review required
+github.com/klauspost/compress	v1.17.4	no	6	Apache-2.0	LICENSE	0d9e582ee4bff57bf1189c9e514e6da7ce277f9cd3bc2d488b22fbb39a6d87cf	
+github.com/klauspost/cpuid/v2	v2.4.0	no	1	MIT	LICENSE	5d966570d7a442d4e969892860a914e542c97f262c873baee8f0aa48e1f40212	
+github.com/miekg/dns	v1.1.72	no	1	BSD-3-Clause	LICENSE	f200ff9bad73385db2ed81e23ee2c1fe069eb5776e17fae4ee85ad0a9e1361a5	
+github.com/pelletier/go-toml	v1.9.5	no	1	Apache-2.0	LICENSE	87d700d1dfac26ddcecc73971b854b5d00c4734214fb8252961212f9e06d2388	
+github.com/pion/dtls/v3	v3.1.4	no	21	MIT	LICENSE	6483daf6c8aa2c8192528e60be098aa82dd18f6d7b96dc8246f4f7c3333fbf3f	
+github.com/pion/logging	v0.2.4	no	1	MIT	LICENSE	87272dba8c4fcf57101a3195f4f53f7b010b6e153b9b0977bb1a3f91acddf691	
+github.com/pion/stun/v3	v3.1.6	no	2	MIT	LICENSE	6483daf6c8aa2c8192528e60be098aa82dd18f6d7b96dc8246f4f7c3333fbf3f	
+github.com/pion/transport/v4	v4.0.2	no	6	MIT	LICENSE	6483daf6c8aa2c8192528e60be098aa82dd18f6d7b96dc8246f4f7c3333fbf3f	
+github.com/pires/go-proxyproto	v0.15.0	no	1	Apache-2.0	LICENSE	666f1951be1d543e744818d232bb311a4a310fd1d344288642c796fca39af3c7	
+github.com/quic-go/qpack	v0.6.0	no	1	MIT	LICENSE.md	1b6a897efd39b20b3cdce8cd306160d115dbded39d855ceeffe21dc11e4d53df	
+github.com/refraction-networking/utls	v1.8.3-0.20260301010127-aa6edf4b11af	no	12	BSD-3-Clause	LICENSE	2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067	
+github.com/riobard/go-bloom	v0.0.0-20200614022211-cdc8013cb5b3	no	1	Apache-2.0	LICENSE	c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4	
+github.com/robfig/cron/v3	v3.0.1	no	1	MIT	LICENSE	8f650581478707182f3306d9a86676d4e03e2d4edc868344378cf4d6fe6c927a	
+github.com/wlynxg/anet	v0.0.5	no	1	BSD-3-Clause	LICENSE	6b8970dbe36fe214fd02b438c06daee19897708e435d761ecd18adc9ef7e7a05	
+github.com/xjasonlyu/tun2socks/v2	v2.7.0	yes	18	MIT	LICENSE	796abbf6d0258a01321f88f72c1d712417acdd75342510f0796f7c567b6f05e5	
+github.com/xtls/libxray	v0.0.0	yes	3	MIT	LICENSE	992cf88a505936a11bd0fff17b7842abd9411e8da41fd69f22f47ae915e9d198	
+github.com/xtls/reality	v0.0.0-20260322125925-9234c772ba8f	no	5	MPL-2.0	LICENSE	7c1bcfe5b0a8009ffae73984bad8e3b5f6bc562f67d6d67bafb600a3b8c08c5e	keep notices
+github.com/xtls/xray-core	v1.260327.1-0.20260728075948-5ca6f4b7d4dc	yes	149	MPL-2.0	LICENSE	1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5	publish source of modified MPL files; keep notices
+github.com/zeebo/blake3	v0.2.4	no	10	CC0-1.0	LICENSE	0589f544f68ffc436e6e21efec2cf7cc2dbb2ac09ce6cb8a8cdb75ab74489716	
+go.uber.org/atomic	v1.11.0	no	1	MIT	LICENSE.txt	edbb5a4d165ac69376c765b551c0662ff42bea87e1f1eda85f42ac90c34b09d0	
+go.uber.org/multierr	v1.11.0	no	1	MIT	LICENSE.txt	dcdabe03bef2382a130640d1c3a4cd5ec42aba1035095c38272fde694eb72405	
+go.uber.org/zap	v1.28.0	no	9	MIT	LICENSE	c2b97b3281be272711909076c8402499b4b5a3216196af47a25b1d3674d86152	
+go4.org/netipx	v0.0.0-20231129151722-fdeea329fbba	no	1	BSD-3-Clause	LICENSE	1bfc4f32f4ec8ca8fce54bd2d97784f003786753a69a78ca74ffae1574037fb9	
+golang.org/x/crypto	v0.57.0	no	13	BSD-3-Clause	LICENSE	911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad	
+golang.org/x/exp	v0.0.0-20260611194520-c48552f49976	no	1	BSD-3-Clause	LICENSE	911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad	
+golang.org/x/net	v0.60.0	no	16	BSD-3-Clause	LICENSE	911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad	
+golang.org/x/sync	v0.23.0	no	2	BSD-3-Clause	LICENSE	911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad	
+golang.org/x/sys	v0.48.0	no	2	BSD-3-Clause	LICENSE	911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad	
+golang.org/x/text	v0.42.0	no	4	BSD-3-Clause	LICENSE	911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad	
+golang.org/x/time	v0.15.0	no	1	BSD-3-Clause	LICENSE	911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad	
+golang.zx2c4.com/wireguard	v0.0.0-20260522210424-ecfc5a8d5446	no	8	MIT	LICENSE	91276db973f25602d1aa43491f59cbc84cb88e6f151e1d0cc82a755563ce0195	
+google.golang.org/genproto/googleapis/rpc	v0.0.0-20260526163538-3dc84a4a5aaa	no	1	Apache-2.0	LICENSE	cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30	
+google.golang.org/grpc	v1.83.2	no	68	Apache-2.0	LICENSE	cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30	
+google.golang.org/protobuf	v1.36.11	no	37	BSD-3-Clause	LICENSE	4835612df0098ca95f8e7d9e3bffcb02358d435dbb38057c844c99d7f725eb20	
+gopkg.in/yaml.v2	v2.4.0	no	1	Apache-2.0	LICENSE	b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1	
+gvisor.dev/gvisor	v0.0.0-20260701204157-69c2d17aea96	no	42	Apache-2.0	LICENSE	0fbab5c58efbdf6d31e8085214f2dd821659c03d73cff3ed2b08e98826ea1cd9	
+lukechampine.com/blake3	v1.4.1	no	3	MIT	LICENSE	7a576402565d51f9c0c7ee5a639aa91d49ed1a54c21a8d0b56f0d25e72d8b2f1	

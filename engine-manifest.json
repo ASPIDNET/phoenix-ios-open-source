@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "built_utc": "20261024T223609Z",
+  "distribution": {
+    "approved": false,
+    "note": "LGPL juju/ratelimit exception and MPL obligations pending release-owner review"
+  },
+  "toolchain": {
+    "go": "go1.27.3",
+    "gomobile": "v0.0.0-20260821190718-4776eadac327",
+    "xcode": "Xcode 27.0",
+    "xcode_build": "27A266a",
+    "iphoneos_sdk": "27.0",
+    "macos": "26.7.1"
+  },
+  "sources": {
+    "libXray": {
+      "tag": "v26.7.28",
+      "commit": "80263da83e96b2972455b0a94b13ee1a10e51391"
+    },
+    "tun2socks": {
+      "tag": "v2.7.0",
+      "commit": "8dda19e8e4613e014f0b12f3e624fdff5e5f23b3",
+      "patch_sha256": "5bb34474cb17a0f4256185e8076f67f810fe182324ec9dca2089bc1c43451dd6"
+    },
+    "xray-core": {
+      "version": "v1.260327.1-0.20260728075948-5ca6f4b7d4dc",
+      "h1": "h1:fkOkmgHWbF2Q8MdV9VxrsyxRz4OndcrUXUkh1ANBTg0=",
+      "ios_patch_sha256": "af84c8de889b5266763d5bd2c551a5b9c96a62bc1724385e15f0d4b654e71776",
+      "ss2022_patch_sha256": "40b74f87f6a4af9ea986d0b98a6da3fb635bd9649cdde9b3e13e264f22f4f40c",
+      "wg_memory_patch_sha256": "3e068e55d14c6e5d90acb8358cfea0342aec0febed0eda2233b67b36799db1a0"
+    },
+    "gvisor": {
+      "version": "v0.0.0-20260701204157-69c2d17aea96",
+      "stopfd_patch": "not applicable on iOS (Linux fdbased dispatcher not linked)"
+    }
+  },
+  "inputs": {
+    "phoenixtun/go.mod": "f31ef3a87a82d22c0127c47dc33f373cfe82d998dbd6de52d8583da206b30c5d",
+    "phoenixtun/go.sum": "5e7c005b59d81063148d5386d473747d02f5b7ba7df9758a2d7b58a7718b7a61",
+    "go_sources": {
+      "backend_engine.go": "622812ac9e88ec7ae6241c5acb7ab73bc86fb08f3b455b64728fb4cb9d5bb671",
+      "backend_engine_test.go": "bdc4e57890bda47043881f36315a3ad27a662c02c2fd3f749df64b27bbd65548",
+      "config.go": "649aec5e708141843bd6b792876e1c21addc238d69ff1cd8571ea0bfa3c12eae",
+      "connector.go": "50623558303556b1f8a026b36fc9a7458c4d106cfe0bc6fa99926182f840fab1",
+      "connector_test.go": "799bc4828bbb1c790bf258c30ddefb092fbfde56d57a7617961810adee16ba36",
+      "doc.go": "1974054476be622f5c7acf565251734e63b64737b4fb90deac5e0622bc1915e2",
+      "egress_ios.go": "c371164fdf6c1e96d42805d5a640d23068920148510a4408101abc6faaecbc10",
+      "engine.go": "953c1d1aed03f941bc999f14d0b1a4a0b0270fcd023893470a4a7f0c74a8917b",
+      "engine_test.go": "3ffd4b2363e90bb56592a72f5476ca03169135ba9e6d86a1897086540e0b559a",
+      "memory.go": "7b68eb5b36dfc9a63a13e6dcd9fe3e7b855c2dea03a3663702dedac65589e37e",
+      "profile.go": "afe7d95860699ef6b4b3b3a2311d027b0727075f3561d3fc200bc41f1eebf10e",
+      "udp_endpoint.go": "30502c55b01529940edbcd5b22182444787b1d5277be66788b009c3cf91a654e",
+      "udp_endpoint_test.go": "ceb683989e5395ae7d63a7821595f897a4e70522a90ea5f8623a0bf8d1598e26"
+    }
+  },
+  "graph": {
+    "packages": 732,
+    "modules": 200
+  },
+  "bind": {
+    "targets": "ios,iossimulator",
+    "iosversion": "15.0",
+    "ldflags": "-checklinkname=0 -s -w",
+    "trimpath": true
+  },
+  "output": {
+    "slices": [
+      "ios-arm64",
+      "ios-arm64_x86_64-simulator"
+    ],
+    "tree_sha256": "d0010af6a26667a5da4456643bc487d6dd23211706b454cbc23069f7998118f5",
+    "device_binary_sha256": "22f3fc6fefc50e62e165c9d29fe540cdb419ca0c9ba97f6058c8092390ae035f",
+    "device_binary_bytes": 41964984,
+    "framework_kib": 120532
+  }
+}
